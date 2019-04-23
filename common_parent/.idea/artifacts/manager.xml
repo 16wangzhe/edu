@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="manager">
+    <output-path>$PROJECT_DIR$/out/artifacts/manager</output-path>
+    <root id="archive" name="manager.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/edu-manager/src/main/webapp" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-4.3.18.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
